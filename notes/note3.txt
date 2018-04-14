@@ -1,0 +1,114 @@
+﻿*STAGE TASK*  
+
+1. Clone the HNGFUN Repository https://github.com/HNGInternship/HNGFun
+
+
+2. Make a personal page in the `profiles` folder and save it has your username.php ....
+Note: Your Personal page should use internal css and js
+     
+Do not save your image on the repo ... *Make use of cloudinary or any other image hosting platform for storing images* and use the link to get your image example: `<img src="link to image source" alt="">`
+
+
+3. Save your work and use the required git work flow to push your changes to the repository I.e( git add . 
+git commit -m "your commit message"
+git pull 
+git push )
+
+
+4  Visit hng.fun/admin.php and fill the form there, your username has to correspond with username.php file you created earlier.
+
+
+5. You should appear on the list visting hng.fun/listing.php .... clicking on view profile on your name should take you to your profile page.
+
+
+6. If this works ... Contact a mentor for review 
+
+
+7. Get Promoted (edited)
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+jekayode: 
+Hello @channel,
+
+This stage task has been slightly modified to make perform some basic MySQL activities
+
+1. Make sure you pull the latest repo on your local machine to avoid conflicts. Also remember to always *pull* before you _push_ your changes.
+
+2. The database file is already included as `hng_fun.sql`, import the database into your local db:
+
+i. Navigate to your database. For xampp its usually localhost/phpmyadmin.
+ii. Create a new database 
+iii. Import the tables from the SQL files into your database (edited)
+
+3. edit your `config.php` to reflect you database connection details
+
+4. Open your profile file located in `profiles` folder
+
+
+5. Query the secret_word table and get the secret_word. Also retrieve your `name` `username` and `image_filename` variables (edited)
+
+6. Save secret_word into a variable called `$secret_word` (edited)
+
+7. Echo all the retrieved variable on your profile page. Do not display your name, username or photo using static html. It must all the displayed using php.
+
+8. Push your code back to repo. Again, do not forget to always pull before pushing back to the repository
+
+9. Make sure you submit your profile form on by clicking `Register` on  hng.fun website.
+
+10. Visit your profile and ensure that you do not have `Secret key mismatch. Insert your secret key` display on the top of your page
+
+11. Contact Stage3 mentors to review your tasks
+
+*****************************************************************************************************************************************************
+*UPDATED STAGE 3 TASK* - _Summary_
+
+
+1. Clone the HNGFUN Repository https://github.com/HNGInternship/HNGFun
+
+
+2. Make a personal page in the `profiles` folder and save it has your username.php ....
+Note: Your Personal page should use internal css and js
+ Do not save your image on the repo ... *Make use of cloudinary* and use the link to get your image example: `<img src="link to image source" alt="">`
+
+
+3a. Connect to database using these already defined *constants*:
+  DB_DATABASE
+  DB_PASSWORD
+  DB_HOST
+  DB_USER
+The way you connect depends on you.
+
+3b. Retrieve your `name` and `username` and image_filename from the database and use this to show your name on your profile page
+
+
+4. Get a `code` from the `secret_word` table by querying the `secret_word` table.
+
+
+5. Create a variable `$secret_word` and the value is the value of the `code` you get from *4* above. This is done on your `username.php` file
+5b. Test, Test and test your work before you think of even pushing. It must work on your local machine!!!!
+
+
+6. Save your work and use the required git work flow to push your changes to the repository I.e( git add . 
+git commit -m "your commit message"
+git pull
+git push )
+
+
+7. Visit hng.fun/admin.php and fill the form there, your username has to correspond with username.php file you created earlier.
+
+
+8. You should appear on the list visting hng.fun/listing.php .... clicking on view profile on your name should take you to your profile page.
+
+
+9. If this works ... Contact a mentor for review without error on the top 
+10. Get Promoted (edited)
+
+
+
+END (edited)
