@@ -1,0 +1,88 @@
+﻿The first thing you want to do is to set a display picture of yourself :
+
+- *Join* channels #announcements #stage1 #help #results by clicking on them.
+
+if you have no coding experience at all, join #stage0- FILL IN THIS SPREADSHEET
+
+https://docs.google.com/spreadsheets/d/1JrhJ0RsWeolvoI4uKpZM2u2vHm4a7vOrmNUQpt2qNYw
+
+- At any channel you enter, always check for pinned items above 
+
+- After you must have done that, the stage 1 task is on this link
+
+==> https://hnginternship4.slack.com/archives/CA2DJC5JB/p1523101156000008
+
+- If you don't know what Figma is go here
+
+==> https://hnginternship4.slack.com/archives/CA1C3U892/p1523113193000041
+
+- Once you finish your Figma design, take a screenshot of your whole screen with the Figma GUI, submit your screenshot in #results
+
+- Start your html/css of the design you just did.
+
+Use Docker. Here is your guide to what docker is and how to set it up
+
+==> https://docs.google.com/document/d/1ImSA8RfeRvHwjEkF7eoswQGhsYbwmVl1d9tkYYkpyzsIf 
+
+you use *Windows 10 or a 32bit system, try xamp or wamp*.
+
+- When you are done and your clock is working on your local browser
+
+- Download the desktop app *teamviewer* for either mac/windows/linux, set up the teamviewer account, get an ID and password.
+
+- Send a message to a Mentor:verified: (Mentors are folks that have the *verified* :verified: icon beside their name, they are always here to help you at any time) with your teamviewer ID and Password
+
+- The Mentor will mirror you laptop screen to see what you've done.
+
+- Hopefully, If you pass the review, The Mentor will add to #stage2. There is a task there already for #stage2, so get started already! 
+
+- At any point you're confused, always look at the stage 1 task to get cleared, DM a mentor, *read this document again* or ask for assist in #help.
+
+- Again, *FILL IN THIS SPREADSHEET*  
+
+==> https://docs.google.com/spreadsheets/d/1JrhJ0RsWeolvoI4uKpZM2u2vHm4a7vOrmNUQpt2qNYw
+
+- Thank you for banking with us. Best of luck folks!
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Stage 1 mentors:
+@paulayuk @hardware @Jemima @ogbeniore @Godfred @Ghost @theDrey @arinzedroid @trojan
+
+
+*To pass stage 1,*
+
+Go to #stage1
+
+You will need the following:
+
+1. Design a very simple page in Figma
+
+2. Implement it in html/css (this design should have space showing the current time)
+
+3. Setup docker
+
+4. Get php to run in docker
+
+4. Make your app work on your local browser
+
+5. Your app must show properly
+
+6. You will need to submit a screenshot to pass to Stage 2
+
+
+
+*How to Create an Account in Figma*
+
+Figma is the first interface design tool with real-time collaboration. It keeps everyone on the same page. Focus on the work instead of fighting your tools.
+
+1. Go to figma.com
+
+2. Click Sign Up at the top right side of your screen
+
+3. Enter your details and Sign Up
+
+4. Go to your MailBox for a confirmation link which returns you back to your figma profile
+
+5. Click the + sign at the top left side of your screen to get started
