@@ -1,4 +1,9 @@
-﻿*STAGE TASK*  
+﻿Stage 3 Mentors - @jekayode @Okoyecb @xyluz @gabriel @bosunski
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+*STAGE TASK*  
 
 1. Clone the HNGFUN Repository https://github.com/HNGInternship/HNGFun
 
@@ -112,3 +117,80 @@ git push )
 
 
 END (edited)
+
+
+*****************************************************************************************************************************************************
+
+@channel If you're done with the task kindly fill this sheet     https://docs.google.com/spreadsheets/d/1JrhJ0RsWeolvoI4uKpZM2u2vHm4a7vOrmNUQpt2qNYw/edit#gid=1343703436
+
+*****************************************************************************************************************************************************
+
+@channel the server has been fixed now before we allow you too push, you are to do the following:
+
+run this command
+`git reset --hard HEAD`
+
+Do not allow your config.php reach the repo
+
+do not tamper with the .gitignore file
+
+Anyone who defaults and messes up the repo would have a 3 stage ban on prizes
+
+
+*****************************************************************************************************************************************************
+
+1. Clone the repo
+
+*Setup database*
+
+
+2. Create a database and name it `hng_fun`
+
+
+3. Create table *secret_word*
+```CREATE TABLE IF NOT EXISTS `secret_word` (
+`id` int(11) NOT NULL,
+  `secret_word` varchar(50) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;```
+
+
+4. Create table *interns_data*
+```CREATE TABLE `interns_data` (
+  `intern_id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `image_filename` varchar(255) NOT NULL,
+  PRIMARY KEY (`intern_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;```
+*Connect to Database*
+
+
+
+5. Copy the content of config.example.php
+
+
+6. Create a new file in the root directory of project and paste it there
+
+
+7. Edit it to fit your database server details i.e. config should like this
+```<?php
+define ('DB_USER', "root");
+define ('DB_PASSWORD', "");
+define ('DB_DATABASE', "hng_fun");
+define ('DB_HOST', "localhost");
+
+?>```
+
+
+8. Save it as config.php
+
+
+9. Open the project in your browser Something like `localhost/HNGFun`
+
+
+10. Click on Register, if your setup is correct you should be able to register successfully. Remember to use `1n73rn@Hng` as key
+
+*Setup your profile page*
+
+*****************************************************************************************************************************************************
+

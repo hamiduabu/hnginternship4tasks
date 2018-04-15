@@ -2,6 +2,7 @@ body {
   background-color: #2F80ED;
   font-weight: bold;
   color: #F2F2F2;
+  text-align: center;
 }
 
 div {
@@ -30,5 +31,6 @@ div {
 
 .line {
   border-top: #F2F2F2 dashed 5px;
-  width: 30%
+  width: 30%;
+  display: inline-block;
 }
